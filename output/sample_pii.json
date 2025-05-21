@@ -1,0 +1,54 @@
+{
+    "summary": {
+        "total_pages": 1,
+        "total_pii_found": 12,
+        "pii_type_counts": {
+            "name": 2,
+            "dob": 1,
+            "aadhaar": 1,
+            "phone": 1,
+            "pan": 1,
+            "email": 1,
+            "address": 1,
+            "ip": 1,
+            "bank": 3
+        }
+    },
+    "pages": [
+        {
+            "page": 1,
+            "pii": {
+                "name": [
+                    "ABCDE1234F",
+                    "John Doe"
+                ],
+                "dob": [
+                    "01-01-1990"
+                ],
+                "aadhaar": [
+                    "1234 5678 9012"
+                ],
+                "phone": [
+                    "9876543210"
+                ],
+                "pan": [
+                    "ABCDE1234F"
+                ],
+                "email": [
+                    "john.doe@example.com"
+                ],
+                "address": [
+                    "Mumbai"
+                ],
+                "ip": [
+                    "192.168.0.1"
+                ],
+                "bank": [
+                    "400002123",
+                    "123456789012",
+                    "9876543210"
+                ]
+            }
+        }
+    ]
+}
